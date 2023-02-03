@@ -47,6 +47,9 @@ module.exports = {
         gooBold: 'gooBold, sans-serif',
         // End Google Fonts
       },
+      backgroundImage: {
+        'hacklogo-lines': "url('/libraries/images/svg/hackfest-logo-lines.svg')",
+      },
       animation: {
         colorAni: 'colorAni 5s ease infinite',
       },
@@ -64,5 +67,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

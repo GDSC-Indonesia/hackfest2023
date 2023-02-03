@@ -28,9 +28,9 @@
   }
 
 @layer components {
-    body{
+    /* body{
         @apply bg-black
-    }
+    } */
     .comingSoon{
         @apply h-screen w-full font-sans flex items-center justify-center text-white/50
     }
