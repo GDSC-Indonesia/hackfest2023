@@ -1,8 +1,14 @@
 import Timeline from './components/Timeline'
+import Speaker from './components/Speaker'
+import Mentor from './components/Mentor'
 
 function App() {
   return (
-    <Timeline />
+    <>
+      <Timeline />
+      <Speaker />
+      <Mentor />
+    </>
   )
 }
 
