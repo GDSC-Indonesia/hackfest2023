@@ -14,17 +14,6 @@ function App() {
       <Navbar/>
       <HackfestDetail/>
       <TopWords/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-      <HackTitle/>
-
     </>
   )
 }
