@@ -45,7 +45,7 @@ module.exports = {
         gooReg: 'gooReg, sans-serif',
         gooMed: 'gooMed, sans-serif',
         gooBold: 'gooBold, sans-serif',
-        // End Google Fonts
+        // End Google Fonts`
       },
       animation: {
         colorAni: 'colorAni 5s ease infinite',
@@ -64,5 +64,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
