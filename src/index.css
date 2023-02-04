@@ -31,6 +31,9 @@
     /* body{
         @apply bg-black
     } */
+    html{
+        @apply overflow-x-hidden
+    }
     .comingSoon{
         @apply h-screen w-full font-sans flex items-center justify-center text-white/50
     }

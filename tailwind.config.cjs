@@ -48,7 +48,7 @@ module.exports = {
         // End Google Fonts
       },
       backgroundImage: {
-        'hacklogo-lines': "url('/libraries/images/svg/hackfest-logo-lines.svg')",
+        'hacklogo-lines': "url('/libraries/images/svg/background/hackfest-logo-lines.svg')",
       },
       animation: {
         colorAni: 'colorAni 5s ease infinite',
